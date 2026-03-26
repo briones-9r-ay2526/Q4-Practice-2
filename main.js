@@ -6,11 +6,16 @@ function checkGrade() {
         window.alert("Excellent!");
     }
     else if (Number(grade) >= 87 && grade <= 93) {
-        window.alert ("Standard!");
+        window.alert ("Above Standard!");
     }
     else if (Number(grade) >= 80 && grade <= 86) {
+        window.alert ("Standard!");
+    }
+
+    else if (Number(grade) >= 75 && grade <= 79) {
         window.alert ("Needs Improvement!");
     }
+
     else {
         window.alert ("Failed!");
     }
